@@ -1,0 +1,99 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+}
+
+#primeiro-slide {
+    width: 100%;
+    height: 300px;
+    background: url(../imagens/capa1.png) no-repeat center center #ef9d87;
+}
+
+#segundo-slide {
+    width: 100%;
+    height: 300px;
+    background: url(../imagens/capa2.png) no-repeat center center #9f755d;
+}
+
+a { text-decoration: none; }
+
+html {
+    scroll-behavior: smooth;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+a#linkA {
+    padding: 1em;
+    color: #808080;
+}
+
+a#linkA:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #ffc439;
+}
+
+a#linkADown {
+    padding: 1em;
+    color: #fff;
+    font-weight: 600;
+}
+
+input.formularioInput {
+    display: inline-block;
+}
+
+p.title-mvv {
+    font-size: 1.2em;
+}
+
+#bg-local {
+    background-image: url(../imagens/bg-local.png);
+    background-repeat: repeat-x;
+}
+
+
+/*///////MODO MOBILE///////*/
+
+@media (max-width: 980px) {
+
+    #primeiro-slide {
+    width: 100%;
+    height: 300px;
+    background: url(../imagens/capa_md1.jpg) no-repeat center center #ef9d87;
+    }
+
+    #segundo-slide {
+        width: 100%;
+        height: 300px;
+        background: url(../imagens/capa_md2.jpg) no-repeat center center #9f755d;
+    }
+
+    #caixa-menu-mobile #linkA {
+        width: 100%;
+        color: #fff;
+        background-color: #ffc439;
+        display: inline-block;
+        margin: 0.2em 0;
+    }
+
+}
+
+@media (max-width: 780px) {
+
+    #primeiro-slide {
+    width: 100%;
+    height: 300px;
+    background: url(../imagens/capa_sm1.jpg) no-repeat center center #ef9d87;
+    }
+
+    #segundo-slide {
+        width: 100%;
+        height: 300px;
+        background: url(../imagens/capa_sm2.jpg) no-repeat center center #9f755d;
+    }
+
+}
