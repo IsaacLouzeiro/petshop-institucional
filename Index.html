@@ -13,161 +13,175 @@
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
 </head>
 <body>
-	<section  id="inicio">
-	    <div class="p-2 position-relative" style="background-color: #e9c147; z-index: 999999">
-	        <div class="container" style="position: relative;">
-	            <div class="d-inline-block">
-	                <a href="https://api.whatsapp.com/send?phone=+55(11)55554444" target="_blank"><img src="imagens/social_phone.png" /></a>&nbsp;&nbsp;&nbsp;
-	                <a href="mailto:petzenterprize@gmail.com" target="_blank"><img src="imagens/social_mail.png" /></a>
-	            </div>
-	            <div class="dropdown d-inline-block" style="position: absolute; right: 0;">
-	                <button class="btn btn-default dropdown-toggle p-0" type="button" id="menu1" data-toggle="dropdown">
-	                    Linguagem
-	                    <span class="caret"></span>
-	                </button>
-	                <ul class="dropdown-menu dropdown-menu-right px-3" role="menu" aria-labelledby="menu1">
-	                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Português</a></li>
-	                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Inglês</a></li>
-	                </ul>
-	            </div>
-	        </div>
-	    </div>
-	    <nav class="navbar navbar-expand-lg navbar-light m-0 p-0 sticky-top">
-	        <div class="container">
-	            <a class="navbar-brand" href="#"><img src="imagens/logo_sm.png" width="100px" height="55px" style="margin: 6px 0;" alt="logo da empresa" /></a>
-	            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
-	                <span class="navbar-toggler-icon"></span>
-	            </button>
-	            <div class="collapse navbar-collapse position-relative" id="navbarNav">
-	                <ul class="navbar-nav position-absolute" style="right: 0; max-width: 22em; width: 100%;" id="caixa-menu-mobile">
-	                    <li class="font-weight-bold"><a id="linkA" href="#inicio">Início</a></li>
-	                    <li class="font-weight-bold"><a id="linkA" href="#about">Sobre Nós</a></li>
-	                    <li class="font-weight-bold"><a id="linkA" href="#servicos">Serviço</a></li>
-	                    <li class="font-weight-bold"><a id="linkA" href="#contato">Contato</a></li>
-	                </ul>
-	            </div>
-	        </div>
-	    </nav>
-	    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-	        <ol class="carousel-indicators">
-	            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-	            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-	        </ol>
-	        <div class="carousel-inner">
-	            <div class="carousel-item active" id="primeiro-slide">
-	                <!--<a href="#servicos"><img class="d-block w-100" src="imagens/capa1.png" alt="Primeiro Slide"></a>-->
-	            </div>
-	            <div class="carousel-item" id="segundo-slide">
-	                <!--<a href="#servicos"><img class="d-block w-100" src="imagens/capa2.png" alt="Segundo Slide"></a>-->
-	            </div>
-	        </div>
-	        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-	            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-	        </a>
-	        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-	            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-	        </a>
-	    </div>
+	
+	<!--Início Cabeçalho-->
+		
+		<nav class="p-2 position-relative" style="background-color: #e9c147; z-index: 999999"><!--Início Menu topo amarelo-->
+			<div class="container" style="position: relative;">
+				<div class="d-inline-block">
+					<a href="https://api.whatsapp.com/send?phone=+55(11)55554444" target="_blank"><img src="imagens/social_phone.png" /></a>&nbsp;&nbsp;&nbsp;
+					<a href="mailto:petzenterprize@gmail.com" target="_blank"><img src="imagens/social_mail.png" /></a>
+				</div>
+				<div class="dropdown d-inline-block" style="position: absolute; right: 0;">
+					<button class="btn btn-default dropdown-toggle p-0" type="button" id="menu1" data-toggle="dropdown">
+						Linguagem
+						<span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu dropdown-menu-right px-3" role="menu" aria-labelledby="menu1">
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Português</a></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Inglês</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav><!--/Fim Menu topo amarelo-->
 
-	    <div class="py-5 container" id="about">
-	        <br />
-	        <h4 class="text-center" style="color: #333;">SOBRE NÓS</h4>
-	        <div class="d-flex container flex-wrap justify-content-around">
-	            <section class="text-center py-5" style="max-width: 325px;">
-	                <p class="title-mvv">VALORES</p>
-	                <span>
-	                    Presamos pela: Ética e Transparência;
-	                    Vidas dos animais domésticos;
-	                    Prontidão para mudanças; Qualidade;
-	                    e Profissionais qualificados.
-	                </span>
-	            </section>
+		<nav class="navbar navbar-expand-sm navbar-light sticky-top"><!--Início Menu topo Principal-->
+			<div class="container">
+				<a class="navbar-brand" href="#"><img src="imagens/logo_sm.png" width="100px" height="55px" style="margin: 6px 0;" alt="logo da empresa" /></a>
+				
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav" style="margin-left: auto;" id="caixa-menu-mobile">
+						<li class="font-weight-bold"><a id="linkA" href="#inicio">Início</a></li>
+						<li class="font-weight-bold"><a id="linkA" href="#about">Sobre Nós</a></li>
+						<li class="font-weight-bold"><a id="linkA" href="#servicos">Serviço</a></li>
+						<li class="font-weight-bold"><a id="linkA" href="#contato">Contato</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav><!--/Fim Menu topo Principal-->
 
-	            <section class="text-center py-5" style="max-width: 325px;">
-	                <p class="title-mvv">MISSÃO</p>
-	                <span>
-	                    A nossa missão é ser uma empresa
-	                    que consiga ajudar os animais tanto
-	                    com produtos de alta qualidade,
-	                    quanto serviços essenciais com os
-	                    melhores funcionarios.
-	                </span>
-	            </section>
+	<!--//Fim Cabeçalho-->
 
-	            <section class="text-center py-5" style="max-width: 325px;">
-	                <p class="title-mvv">VISÃO</p>
-	                <span>
-	                    Pretendemos expandir nossos
-	                    serviços e produtos daqui a alguns
-	                    meses, e aumentar o nosso alcance
-	                    por todo o Brasil em 5 anos.
-	                </span>
-	            </section>
-	        </div><br />
-	    </div>
+	<main><!--//Início Seção Principal-->
 
-	    <div class="py-4" style="background-color: #e9c147;" id="servicos">
-	        <br />
-	        <section class="d-flex container flex-wrap justify-content-around">
-	            <div class="" style="max-width: 800px;">
-	                <h4 class="text-white mt-4">SERVIÇOS</h4>
-	                <p class="text-white mt-3" style="font-size: 1.2em;">
-	                    <span class="font-weight-bold" style="font-size: 1.5em">-</span> Trabalhamos na excelência de nossos serviços de <span class="font-weight-bold text-secondary">Banho e Tosa</span>,
-	                    no propósito de proporcionar nossas ferramentas para a saúde dos animais.
-	                </p>
-	                <p class="text-white" style="font-size: 1.2em;">
-	                    <span class="font-weight-bold" style="font-size: 1.5em">-</span> Temos uma loja com diversos acessórios, brinquedos e alimentos para nossos pets
-	                    em nossa <span class="font-weight-bold text-secondary">Loja Física</span>, com uma boa acessiblidade de preço.
-	                </p>
-	            </div>
-	            <div>
-	                <img width="350px" src="imagens/banho-e-tosa-para-cachorro.png">
-	            </div>
-	        </section><br />
-	    </div>
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"><!--Início Carrossel-->
+			<ol class="carousel-indicators">
+				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active" id="primeiro-slide"></div><!--Primeiro Slide-->
+				<div class="carousel-item" id="segundo-slide"></div><!--Segundo Slide-->
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			</a>
+		</div><!--/Fim Início Carrossel-->
 
-	    <div class="pt-5 pb-4 container text-center" id="contato">
-	        <h4 style="color: #333;">CONTATO</h4>
-	        <div class="d-flex flex-wrap justify-content-around">
-	            <section class="py-5 text-left" style="max-width: 450px;">
-	                <p>Nome:</p>
-	                <input type="text" class="form-control border-secondary" style="width: 22em; box-shadow: 1px 1px 10px rgba(50,50, 50, 0.3);" />
-	            </section>
+		<section class="py-5 container" id="about"><!--Início Sobre-->
+			<br />
+			<h4 class="text-dark text-center w-100">SOBRE NÓS</h4>
+			<div class="container">
+				<div class="row">
+					<section class="text-center py-5 col-lg-4 col-md-6"><!--Início Conteúdo 1-->
+						<p class="title-mvv">VALORES</p>
+						<span>
+							Presamos pela: Ética e Transparência;
+							Vidas dos animais domésticos;
+							Prontidão para mudanças; Qualidade;
+							e Profissionais qualificados.
+						</span>
+					</section><!--/Fim Conteúdo 1-->
+	
+					<section class="text-center py-5 col-lg-4 col-md-6"><!--Início Conteúdo 2-->
+						<p class="title-mvv">MISSÃO</p>
+						<span>
+							A nossa missão é ser uma empresa
+							que consiga ajudar os animais tanto
+							com produtos de alta qualidade,
+							quanto serviços essenciais com os
+							melhores funcionarios.
+						</span>
+					</section><!--/Fim Conteúdo 2-->
+	
+					<section class="text-center py-5 col-lg-4"><!--Início Conteúdo 3-->
+						<p class="title-mvv">VISÃO</p>
+						<span>
+							Pretendemos expandir nossos
+							serviços e produtos daqui a alguns
+							meses, e aumentar o nosso alcance
+							por todo o Brasil em 5 anos.
+						</span>
+					</section><!--/Fim Conteúdo 3-->
+				</div>
+			</div><br />
+		</section><!--/Fim Sobre-->
 
-	            <section class="py-5 text-left" style="max-width: 450px;">
-	                <p>Email:</p>
-	                <input type="email" class="form-control border-secondary" style="width: 22em;  box-shadow: 1px 1px 10px rgba(50,50, 50, 0.3);" />
-	            </section>
+		<section class="py-4" style="background-color: #e9c147;" id="servicos"><!--Início serviços-->
+			<section class="container">
+				<div class="row align-items-center justify-content-between">
+					<section class="col-lg-8 px-4"><!--Início Conteúdo 1-->
+						<h4 class="text-white mt-4" id="servicos-titulo">SERVIÇOS</h4>
+						<p class="text-white mt-3" style="font-size: 1.2em;">
+							<span class="font-weight-bold" style="font-size: 1.5em">-</span> Trabalhamos na excelência de nossos serviços de <span class="font-weight-bold text-secondary">Banho e Tosa</span>,
+							no propósito de proporcionar nossas ferramentas para a saúde dos animais.
+						</p>
+						<p class="text-white" style="font-size: 1.2em;">
+							<span class="font-weight-bold" style="font-size: 1.5em">-</span> Temos uma loja com diversos acessórios, brinquedos e alimentos para nossos pets
+							em nossa <span class="font-weight-bold text-secondary">Loja Física</span>, com uma boa acessiblidade de preço.
+						</p>
+					</section><!--/Fim Conteúdo 1-->
 
-	            <section class="py-5 text-left" style="max-width: 450px;">
-	                <p>Mensagem:</p>
-	                <textarea class="form-control border-secondary" style="width: 22em; box-shadow: 1px 1px 10px rgba(50,50, 50, 0.3);">
-	                
-	                </textarea>
-	            </section>
-	        </div>
-	        <input type="button" value="ENVIAR" class="btn btn-outline-dark" style="width: 150px;" />
-	    </div><br>
+					<section class="col-lg-4 d-none d-md-block"><!--Início Conteúdo 2-->
+						<img class="img-fluid" src="imagens/banho-e-tosa-para-cachorro.png">
+					</section><!--/Fim Conteúdo 2-->
+				</div>
+			</section><br />
+		</section><!--/Fim serviços-->
 
-	    <div id="bg-local" class="pt-5">
-	        <h4 class="text-center" style="color: #333;">LOCALIZAÇÃO</h4>
-	        <br />
-	        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29258.27148259388!2d-46.765911360449216!3d-23.558243799999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce55fd56c941bd%3A0xa25809824445b7aa!2sPetz!5e0!3m2!1spt-BR!2sbr!4v1605135941179!5m2!1spt-BR!2sbr" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-	    </div>
+		<section class="pt-5 pb-4" id="contato"><!--Início Contato-->
+			<div class="container">
+				<h4 class="text-dark text-center w-100">CONTATO</h4>
+				<form class="row">
+					<section class="py-5 col-md-6 col-lg-4"><!--Início Conteúdo 1-->
+						<p>Nome:</p>
+						<input type="text" class="form-control form-control-lg border-secondary shadow">
+					</section><!--/Fim Conteúdo 1-->
+	
+					<section class="py-5 col-md-6 col-lg-4"><!--Início Conteúdo 2-->
+						<p>Email:</p>
+						<input type="email" class="form-control form-control-lg border-secondary shadow">
+					</section><!--/Fim Conteúdo 2-->
+	
+					<section class="py-5 col-lg-4"><!--Início Conteúdo 3-->
+						<p>Mensagem:</p>
+						<textarea class="form-control form-control-lg border-secondary shadow">
+						
+						</textarea>
+					</section><!--/Fim Conteúdo 3-->
+				</form>
+				<input type="button" value="ENVIAR" class="btn btn-lg btn-outline-dark d-block mx-auto">
+			</div>
+		</section><!--/Fim Contato-->
 
-	    <footer class="pb-3 pt-4" style="text-align: center; background-color: #2f2001">
-	        <ul class="nav d-inline-block mb-3">
-	            <li class="nav-item d-inline-block"><a id="linkADown" href="#inicio">Home</a></li>
-	            <li class="nav-item d-inline-block"><a id="linkADown" href="#about">Sobre Nós</a></li>
-	            <li class="nav-item d-inline-block"><a id="linkADown" href="#servicos">Serviço</a></li>
-	            <li class="nav-item d-inline-block"><a id="linkADown" href="#contato">Contato</a></li>
-	        </ul>
-	        <br />
-	        <img src="imagens/logo-white.png" width="110px" height="65px" style="margin: 6px 0;" alt="logo da empresa" />
-	        <br />
-	        <p style="padding-top: 1em; color: #fff">&copy; Copyright 2020 | Todos os direitos reservados | Por <a href="https://github.com/isaaclouzeiro" target="_blank">Isaac Louzeiro</a></p>
-	    </footer>
-	</section>
+		<br>
+		<section id="bg-local" class="pt-5"><!--Início Localização-->
+			<h4 class="text-center" style="color: #333;">LOCALIZAÇÃO</h4>
+			<br />
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29258.27148259388!2d-46.765911360449216!3d-23.558243799999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce55fd56c941bd%3A0xa25809824445b7aa!2sPetz!5e0!3m2!1spt-BR!2sbr!4v1605135941179!5m2!1spt-BR!2sbr" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		</section><!--/Fim Localização-->
+
+	</main><!--/Fim Seção Principal-->
+
+	<footer class="pb-3 pt-4" style="text-align: center; background-color: #2f2001"><!--Início Rodapé-->
+		<ul class="nav d-inline-block mb-3">
+			<li class="nav-item d-inline-block"><a id="linkADown" href="#inicio">Home</a></li>
+			<li class="nav-item d-inline-block"><a id="linkADown" href="#about">Sobre Nós</a></li>
+			<li class="nav-item d-inline-block"><a id="linkADown" href="#servicos">Serviço</a></li>
+			<li class="nav-item d-inline-block"><a id="linkADown" href="#contato">Contato</a></li>
+		</ul>
+		<br />
+		<img src="imagens/logo-white.png" width="110px" height="65px" style="margin: 6px 0;" alt="logo da empresa" />
+		<br />
+		<p style="padding-top: 1em; color: #fff">&copy; Copyright 2020 | Todos os direitos reservados | Por <a href="https://github.com/isaaclouzeiro" target="_blank">Isaac Louzeiro</a></p>
+	</footer><!--/Fim Rodapé-->
 
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
