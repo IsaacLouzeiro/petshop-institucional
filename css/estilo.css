@@ -1,6 +1,10 @@
-﻿body {
+body {
     padding: 0;
     margin: 0;
+}
+
+.shadow {
+    box-shadow: 1px 1px 10px rgba(50,50, 50, 0.3);
 }
 
 #primeiro-slide {
@@ -72,14 +76,6 @@ p.title-mvv {
         background: url(../imagens/capa_md2.jpg) no-repeat center center #9f755d;
     }
 
-    #caixa-menu-mobile #linkA {
-        width: 100%;
-        color: #fff;
-        background-color: #ffc439;
-        display: inline-block;
-        margin: 0.2em 0;
-    }
-
 }
 
 @media (max-width: 780px) {
@@ -96,4 +92,19 @@ p.title-mvv {
         background: url(../imagens/capa_sm2.jpg) no-repeat center center #9f755d;
     }
 
+    #servicos-titulo {
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+
+    #caixa-menu-mobile #linkA {
+        width: 100%;
+        color: #fff;
+        background-color: #ffc439;
+        display: inline-block;
+        margin: 0.2em 0;
+        text-align: center;
+    }
 }
