@@ -4,7 +4,7 @@ body {
 }
 
 .shadow {
-    box-shadow: 1px 1px 10px rgba(50,50, 50, 0.3);
+    box-shadow: 1px 1px 6px rgba(50,50, 50, 0.2);
 }
 
 #primeiro-slide {
